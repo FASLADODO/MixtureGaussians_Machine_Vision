@@ -1,26 +1,5 @@
 function r=practicalMixGaussA
 
-%This project explores fitting simple parametric models to visual data.
-%The goal of this part of the project is to fit one Gaussian model to the
-%data for skin and another Gaussian to non-skin pixels, and use this to 
-% find the posterior probability that each pixel in an image is skin.
-%The aim of part B is to fit a mixture of 
-%Gaussians model to one dimensional data. The aim of part C is to fit a 
-%mixture of Gaussians model to the RGB data.
-%The aim of Part D is to apply what we've learned to real data.
-
-%You should use this template for your code and fill in the missing 
-%sections marked "TO DO". 
-
-% -----------------------------------
-% PLEASE NOTE: When implementing equations, you should only be using 
-% "simple" Matlab commands, such as mean(). Even for cov(), you should 
-% implement it yourself to show that you know what the function is doing. 
-% (You will find times when you can check your function that way, but 
-% beware, there are sometimes subtle implementation details that differ 
-% between the vanilla equation and Matlab's version.)
-% -----------------------------------
-
 %load in test image and ground truth.  Your goal is to segment this image
 %to recover the ground truth
 im = imread('bob_small.jpeg');
