@@ -1,13 +1,5 @@
 function r=practicalMixGaussC
 
-%The goal of this practical is to generate some data from an n-Dimensional
-%mixtures of Gaussians model, and subsequently to fit an
-%n-dimensional mixtures of Gaussians model to it to recover the original
-%parameters
-
-%You should use this template for your code and fill in the missing 
-%sections marked "TO DO"
-
 %close all open plots
 close all;
 
