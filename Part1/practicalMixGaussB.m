@@ -1,26 +1,7 @@
 function r=practicalMixGaussB
 
-%The goal of this practical is to generate some data from a one-dimensional
-%mixtures of Gaussians model, and subsequently to fit a mixtures of Gaussians model to
-%this data, to recover the original parameters.
-
-%You should use this template for your code and fill in the missing 
-%sections marked "TO DO"
-
 %close all open plots
 close all;
-
-
-
-
-% Note (again) that you should NOT be using functions like normpdf and
-% normfit or other functions from Statistics Toolbox in sampling from or
-% fitting your distributions in this or further parts of this practical.
-% Optionally, you can try comparing your results to those produced by those
-% functions, but our goal here is to learn what is happening!
-
-
-
 
 
 %define the True parameters for mixture of k Gaussians
